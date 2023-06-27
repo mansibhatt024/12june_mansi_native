@@ -1,0 +1,48 @@
+Q=1 what is software? what is software engineer?
+-software: is collection of information,instruction & database.
+-software engineer: is a person who applies the engineering design process to  design, develop, maintain,test and evaluate computer software.
+
+
+Q=2  Explain types of software
+-1. system software:
+    -these software programs are designed to run a computer's application programs and hardware.
+    -system software coordinadtes the activities and functions of the hardware and software.
+    -it controls the operations of the computer hardware and provides an environment or platform for all the other types of software to work in.
+    -the os is the best  example of system software;it manages all the other compute programs.
+    -other examples of system  software include the firmware,computer language translators and system utilities.
+example-linux,ubuntu etc.
+
+-2. application software:
+    -the most common type of software,application software is a computer software package that performs a specific function for a user , or in some cases for another applications.
+    -an application can be self contained,or it can be a group of programs that run the application for the user.
+    -examples of modern applications include office suites,graphics software,databases and database management programs,web browsers,word processors,software development tools,image editors and communication platforms.
+example-microsoft office,paint,powerpoint etc.
+  1.mobile app:
+     for ex.,camera, whatsapp,photo etc.
+  2. web app:
+     for ex., chrome,fire fox etc.
+  3. desktop app:
+     for ex., wordpad,notepad etc.
+
+-3.  programming software:
+     -computer programmers use programming software to write code.programming software and programming tools enable develpoers to develop,write,test and debug other software programs.
+     -examples of programming software  include assemblers,compliers,debuggers and interpreters.
+
+-4.  driver software:
+     -also known as device drivers,this software is often considered a type of system software.
+     -device drivers control the devices and peripherals connected to a computer, enabling them to perform their specific tasks.
+     -every device that is connected to a computer needs at least one device driver to function.
+     -examples include software that comes with any nonstandard hardware,including special game controllers,as well as the software that enables standard hardware,such as usb  storage devices,keyboards, headphones and printers.
+
+-5.  middleware:
+     -the term middleware  describes software that mediates between application and system software or between two different kinds of application software.
+     - for example-middleware enables microsoft windows to talk excel and word.
+     -it is also used to send a remote work request from an application in a computer that has one kind of os, to an application in a computer with a different OS.it also enables newer application to work with leagacy ones.
+
+
+Q=3  What is SDLC? Explain each phase  of SDLC.
+     -the software develpoment  life cycle refers to a methodology  with clearly  defined processes for creating high quality  software. in detail the SDLC methodology focuses on the following phase of software development.
+   1)requirement gathering and analysis:
+     - during this phase all the relvant information is collected from the customer to develop a product as per their expection.
+     - business analyst and project manager set up a meeting with customer to gather all the information like what the customer wants to build,customers requirement of product,what is the purspose of the product,knowledge of product is very important.
+     - for example:
