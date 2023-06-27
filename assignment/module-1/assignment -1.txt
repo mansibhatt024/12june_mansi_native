@@ -42,7 +42,27 @@ example-microsoft office,paint,powerpoint etc.
 
 Q=3  What is SDLC? Explain each phase  of SDLC.
      -the software develpoment  life cycle refers to a methodology  with clearly  defined processes for creating high quality  software. in detail the SDLC methodology focuses on the following phase of software development.
-   1)requirement gathering and analysis:
+   1)requirement gathering :
      - during this phase all the relvant information is collected from the customer to develop a product as per their expection.
      - business analyst and project manager set up a meeting with customer to gather all the information like what the customer wants to build,customers requirement of product,what is the purspose of the product,knowledge of product is very important.
-     - for example:
+     - for example: a customer wants to online transactions.so we create software as per customer requirement like what kind of transaction will be done,in which currency it will be done.
+     - once requirement gathering is done,then we create a software.
+   2)analysis:
+     - during this phase business analyst and project manager disscussed about requirement of customer and analysis on the information which they  gathering.
+     - an analysis is done to check feasiblity  of the development of a product.this information should be throughly understood by the developers.
+   3)designing:
+     - in this phase, the requirement gathered,analysis is done and we need to design the software.
+     - design the software is used as an input and software architecture  that is used for implementing system developmnet is derived.
+  4) implementation:
+     -implementation starts once the developer gets the design document.
+     - all the compotantes of the software are implemented in this phase.
+  5) testing: 
+     -testing starts once the coding is complete. in this phase, the devloped software is tested throughly and any defects found  are assigned to developers to get them fixed.
+     - retesting,regression  testing is done until the point at which the software is as per the customer's expectation.
+  6) maintenance:
+     -after the testing  of a product on the production environment,maintenance of the product. i.e.  if any issues comes up and needs to be fixed or any enhancement is to be done is taken  care by the developers.
+   
+
+Q=4 What is DFD?Create a DFD diagram on flipkart.
+   -DFD is data flow diagram.
+
