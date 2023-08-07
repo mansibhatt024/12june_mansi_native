@@ -2,12 +2,13 @@
 #include<stdio.h>
 int main()
 {
-	int week;
-	printf("enter the week number");
-	scanf("%c", &week);
+	int day;
+	printf("enter the day");
+	scanf("%d", &day);
 	printf("\n1.monday\n2.tuesday\n3.wednesday\n4.thursday\n5.friday\n5.saturday\n6.sunday ");
+	printf("\n");
 
-	switch(week)
+	switch(day)
 	{
 	case 1:
 		printf("monday");
