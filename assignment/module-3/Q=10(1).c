@@ -1,4 +1,4 @@
-//WAP  using switch case monday to sunday
+//WAP  using switch case monday to sunday.
 #include<stdio.h>
 int main()
 {
