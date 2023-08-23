@@ -6,7 +6,7 @@ int main()
 	 printf("Enter any 10 array elements: ");
     for(i=0; i<10; i++)
         scanf("%d", &array[i]);
-    printf("\nAll Even Array elements are:\n");
+    printf("\nAll odd Array elements are:\n");
     for(i=0; i<10; i++)
     {
         if(array[i]%2!=0)
@@ -15,5 +15,5 @@ int main()
             sum+=array[i];
         }
     }
-    printf("\nsum of even number is:%d",sum);
+    printf("\nsum of odd number is:%d",sum);
 }
