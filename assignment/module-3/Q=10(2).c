@@ -1,4 +1,4 @@
-//wap using switch case consonant or vowel
+//wap using switch case consonant or vowel.
 #include<stdio.h>
 int main()
 {
