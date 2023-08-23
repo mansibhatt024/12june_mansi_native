@@ -1,4 +1,4 @@
-//wap to print 972 to 897 using for loop
+//wap to print 972 to 897 using for loop.
 #include<stdio.h>
 int main()
 {
