@@ -1,3 +1,4 @@
+//assignmaent operator
 #include<stdio.h>
 int main()
 {
