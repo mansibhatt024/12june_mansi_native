@@ -1,3 +1,4 @@
+//create an application that can perform all string related operations.
 #include <stdio.h>
 #include <string.h>
 #include <stdbool.h>
