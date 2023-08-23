@@ -1,3 +1,4 @@
+// all array value in one array
 #include<stdio.h>
 int main()
 {
