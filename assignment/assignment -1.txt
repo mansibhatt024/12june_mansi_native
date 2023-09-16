@@ -28,18 +28,6 @@ example-microsoft office,paint,powerpoint etc.
      -computer programmers use programming software to write code.programming software and programming tools enable develpoers to develop,write,test and debug other software programs.
      -examples of programming software  include assemblers,compliers,debuggers and interpreters.
 
--4.  driver software:
-     -also known as device drivers,this software is often considered a type of system software.
-     -device drivers control the devices and peripherals connected to a computer, enabling them to perform their specific tasks.
-     -every device that is connected to a computer needs at least one device driver to function.
-     -examples include software that comes with any nonstandard hardware,including special game controllers,as well as the software that enables standard hardware,such as usb  storage devices,keyboards, headphones and printers.
-
--5.  middleware:
-     -the term middleware  describes software that mediates between application and system software or between two different kinds of application software.
-     - for example-middleware enables microsoft windows to talk excel and word.
-     -it is also used to send a remote work request from an application in a computer that has one kind of os, to an application in a computer with a different OS.it also enables newer application to work with leagacy ones.
-
-
 Q=3  What is SDLC? Explain each phase  of SDLC.
      -the software develpoment  life cycle refers to a methodology  with clearly  defined processes for creating high quality  software. in detail the SDLC methodology focuses on the following phase of software development.
    1)requirement gathering :
