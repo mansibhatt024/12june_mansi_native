@@ -1,0 +1,33 @@
+
+-- Query 1: Find Nobel prize winners of the year 1970
+SELECT year, subject, winner
+FROM Nobel_win
+WHERE year = 1970;
+
+-- Query 2: Find Nobel prize winners in chemistry between 1965 and 1975
+SELECT year, subject, winner, country
+FROM Nobel_win
+WHERE year BETWEEN 1965 AND 1975
+AND subject = 'Chemistry';
+
+-- Query 3: Retrieve details of winners whose first name matches 'Louis'
+SELECT year, subject, winner, country
+FROM Nobel_win
+WHERE winner LIKE 'Louis%';
+
+-- Query 4: Find Nobel prize winners for subjects that do not begin with 'P'
+SELECT year, subject, winner, country
+FROM Nobel_win
+WHERE subject NOT LIKE 'P%'
+ORDER BY year DESC, winner ASC;
+
+-- Query 5: Find details of 1970 Nobel prize winners, ordering by subject as specified
+SELECT year, subject, winner, country, category
+FROM Nobel_win
+WHERE year = 1970
+ORDER BY
+    CASE
+        WHEN subject IN ('Chemistry', 'Economics') THEN 2
+        ELSE 1
+    END,
+    subject ASC;
