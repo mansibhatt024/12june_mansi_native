@@ -1,0 +1,6 @@
+Q=1 What do you understand By Database.
+ - A database is a structured collection of data organized for efficient storage, retrieval, and manipulation. 
+ - It serves as a digital repository for storing and managing information, allowing users to easily access, update, and query data for various purposes, such as storing customer records, product information, or financial transactions.
+ - Databases are essential for applications ranging from websites and mobile apps to business operations and scientific research. 
+ - They help ensure data integrity, consistency, and security while enabling efficient data handling and analysis.
+

@@ -1,0 +1,4 @@
+Q=6 What is DDL Interpreter?
+  -When a user issues DDL statements, the DDL interpreter checks the syntax and semantics of the statements.
+  -If the statements are correct, the interpreter translates them into a set of low-level operations that the DBMS can understand and execute. 
+  -These operations are then executed to create, modify, or delete the specified databas

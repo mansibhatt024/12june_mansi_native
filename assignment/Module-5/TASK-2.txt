@@ -1,0 +1,44 @@
+
+2.
+a) Get First_Name from employee table using Tom name “Employee Name”.
+ SELECT First_Name
+FROM employee
+WHERE first_name = 'Tom';
+
+b) Get FIRST_NAME, Joining Date, and Salary from employee table. 
+SELECT FIRST_NAME, Joining_Date, Salary
+FROM employee;
+
+c) Get all employee details from the employee table order by First_Name  Ascending and Salary descending?
+SELECT *
+FROM employee
+ORDER BY First_Name ASC, Salary DESC;
+
+d) Get employee details from employee table whose first name contains ‘J’. 
+SELECT *
+FROM employee
+WHERE First_Name LIKE '%J%';
+
+e) Get department wise maximum salary from employee table order by  salary ascending?
+SELECT Department, MAX(Salary) AS Max_Salary
+FROM employee
+GROUP BY Department
+ORDER BY Max_Salary ASC;
+
+f) Select first_name, incentive amount from employee and incentives table for those employees who have incentives and incentive amount greater than 3000 
+SELECT e.first_name, i.incentive_amount
+FROM employee e
+JOIN incentive i ON employee_ref_id = i.employee_ref_id
+WHERE i.incentive_amount > 3000;
+
+g) Create After Insert trigger on Employee table which insert records in  view table  
+DELIMITER //
+CREATE OR REPLACE TRIGGER after_employee_insert
+AFTER INSERT ON Employee
+FOR EACH ROW
+BEGIN
+    INSERT INTO view_table (employee_id, first_name, last_name) 
+    VALUES (NEW.employee_id, NEW.first_name, NEW.last_name);
+END;
+//
+DELIMITER ;

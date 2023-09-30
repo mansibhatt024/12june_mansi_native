@@ -1,0 +1,20 @@
+TASK:
+1.
+->CREATE TABLE student (
+    roll_no INT PRIMARY KEY,
+    name VARCHAR(20),
+    branch VARCHAR(20)
+);
+INSERT INTO student(`roll no`, name, branch)
+VALUES
+(1, 'jay', 'computer science'),
+(2, 'suhani', 'electronic and com'),
+(3, 'kriti', 'electronic and com');
+
+->CREATE TABLE Exam (
+    roll_no INT,
+    S_code VARCHAR(20),
+    marks INT,
+    P_code VARCHAR(20),
+    FOREIGN KEY (roll_no) REFERENCES Student(roll_no)
+);
