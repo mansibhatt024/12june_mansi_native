@@ -5,7 +5,7 @@ int main()
 	int day;
 	printf("enter the day");
 	scanf("%d", &day);
-	printf("\n1.monday\n2.tuesday\n3.wednesday\n4.thursday\n5.friday\n5.saturday\n6.sunday ");
+	printf("\n1.monday\n2.tuesday\n3.wednesday\n4.thursday\n5.friday\n6.saturday\n7.sunday ");
 	printf("\n");
 
 	switch(day)
