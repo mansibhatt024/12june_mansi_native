@@ -1,3 +1,7 @@
 Q=5 What do you understand By Data Redundancy?
-    • Redundancy in relation may cause insertion, deletion and updation anomalies. So, it helps to minimize the redundancy in relations. 
-    • Normalization is the process of minimizing redundancy (duplicity) from a relation or set of relations.
+    -Redundancy in DBMS is having several copies of the same data in the database, for example, storing the complete details of the 
+    department such as department_id, department_name, and department_head repeatedly in every student record. Redundancy may cause 
+    inconsistency in data when they are not properly updated.
+    - Redundancy in relation may cause insertion, deletion and updation anomalies. So, it helps to minimize the redundancy in relations. 
+    - Normalization is the process of minimizing redundancy (duplicity) from a relation or set of relations.
+    
