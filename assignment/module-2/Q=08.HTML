@@ -1,0 +1,25 @@
+In how many ways can a CSS be integrated as a web page?
+CSS (Cascading Style Sheets) can be integrated into a web page in several ways, giving developers flexibility and control over how styles are applied. Here are the most common methods of integrating CSS into a web page:
+
+1.Internal CSS:
+CSS can be placed directly within an HTML document using the <style> element in the document  section.   
+<head>
+    <style>
+        body {
+            background-color: lightblue;
+        }
+        h1 {
+            color: navy;
+        }
+    </style>
+</head>
+
+2.External CSS:
+CSS can be written in a separate file (e.g., styles.css) and linked to the HTML document using the <link> element in the <head> section. This method allows multiple HTML files to share the same styles.
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+3.Inline CSS:
+Styles can be applied directly to individual HTML elements using the style attribute. Inline styles have the highest specificity and override external and internal styles.
+<div style="color: red; font-size: 18px;">This is a red text with font size 18px.</div>
