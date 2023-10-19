@@ -1,4 +1,4 @@
-// WAP to take two Array input from user and sort them in ascending ordescending order as per user’s choice
+// WAP to take two Array input from user and sort them in ascending ordescending order as per userâ€™s choice
 #include <stdio.h>
 int main (){
    int num[20];
