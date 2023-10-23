@@ -1,19 +1,5 @@
 Q=9 What is save Point? How to create a save Point write a Query? 
   -A SAVEPOINT is a point in a transaction when you can roll the transaction back to a certain point without rolling back the entire transaction.
-Syntax:
-  SAVEPOINT my_savepoint;
--- Start a transaction
-BEGIN;
-
--- Perform some operations
-INSERT INTO employees (id, name, salary) VALUES (1, 'John Doe', 50000);
-UPDATE employees SET salary = 55000 WHERE id = 1;
-
--- Set a savepoint
-SAVEPOINT my_savepoint;
-
--- If you want to roll back to the savepoint
-ROLLBACK TO my_savepoint;
-
--- Commit the transaction
-COMMIT;
+the syntax for savepoint command is as shown below:
+     SAVEPOINT SAVEPOINT_NAME
+    this command serves only in the creation of a savepoint among all the transaction statements.  
