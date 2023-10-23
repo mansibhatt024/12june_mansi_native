@@ -1,6 +1,4 @@
 Q=4 MF Cod Rule of RDBMS Systems:
-           -There isn't a commonly known term "MF Cod Rule" in the context of RDBMS. 
-           -It's possible that you meant something else or there might be a typo in the term.
-           -Codd's rule in DBMS also known as Codd's 12 rules/commandments is a set of thirteen rules (numbered 0 to 12) that define a 
-            database to be a correct Relational Database Management System (RDBMS). 
-           -If a database follows Codd's 12 rules, it is called a True relational database management system.
+           MF cod rule is thirteen
+(0 to 12)
+   that define a database to be correct relational data base management system (RDBMS)
